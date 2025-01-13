@@ -25,6 +25,7 @@ A GitHub Actions workflow to create zipped Conda environments for Windows machin
    - `download_spacy_model`: Download Spacy language models
    - `zip_vol_size`: Control archive volume size
    - `retention_days`: Artifact retention period
+   
 **Note**: if you don't have a D drive on your VINCI machine, then you might need to make some changes manually once you unzip the environment folder inside VINCI.
 In File Explorer, go to [your_env_folder]\share\jupyter\kernels\python3\kernel.json and open with Notepad++. Change line 3 to  [your_env_folder]\\python.exe, save, and reactivate the environment. The sys.path in jupyter notebooks should now point towards your copy of the anaconda environment. 
 
