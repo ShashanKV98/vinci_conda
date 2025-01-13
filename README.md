@@ -1,6 +1,6 @@
 # vinci_conda
 
-A GitHub Actions workflow for building and managing Conda environments on Windows machines.
+A GitHub Actions workflow to create zipped Conda environments for Windows machines. You can use the created conda environment in air-gap environment by uploading them through VINCI [upload tool](https://vaww.vinci.med.va.gov/WebApps/VCFileTransfer/Upload).
 
 ## Features
 
@@ -36,3 +36,4 @@ A GitHub Actions workflow for building and managing Conda environments on Window
 1. Download the 7z archives from the latest release
 2. Extract to your specified target folder
 3. Activate the environment using Conda
+4. If your working machine does not have conda installed, you will need to install them (doesn't require admin right). Here are the [latest miniforge](https://conda-forge.org/download/)
