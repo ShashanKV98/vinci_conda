@@ -1,4 +1,27 @@
 name: win_dev
 dependencies:
-  - python=3.10
+  - python=3.12
   - notebook
+  - pandas
+  - numpy
+  - scikit-learn
+  - imblearn
+  - matplotlib
+  - seaborn
+  - xgboost
+  - lifelines
+  - statsmodels
+  - pycatch22
+  - pickle
+  - umap-learn
+  - scipy
+  - hdbscan
+  - plotly
+  - networkx
+  - keras
+  - tensorflow
+  - pytorch
+  - torchvision 
+  - torchaudio 
+  - pytorch-cuda=12.4
+  - spyder
