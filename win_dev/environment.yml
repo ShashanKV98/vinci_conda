@@ -1,4 +1,7 @@
 name: win_dev
+channels:
+  - pytorch
+  - conda-forge
 dependencies:
   - python=3.12
   - notebook
@@ -19,6 +22,5 @@ dependencies:
   - keras
   - pytorch
   - torchvision 
-  - torchaudio 
-  - pytorch-cuda=12.4
+  - cudatoolkit=12.4
   - spyder
