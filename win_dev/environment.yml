@@ -1,6 +1,6 @@
 name: win_dev
 dependencies:
-  - python=3.12
+  - python=3.10
   - notebook
   - pandas
   - numpy
